@@ -1,0 +1,52 @@
+{
+    "initial_amount": 0,
+    "monthly_amount": 400,
+    "start_month": 2,
+    "start_year": 2015,
+    "end_month": 2,
+    "end_year": 2023,
+    "tax_percentage": 28.0,
+    
+    "stocks":[
+        {
+            "name": "pepsi",
+            "symbol": "pep",
+            "percentage": 4
+        },
+        {
+            "name": "coca-cola",
+            "symbol": "ko",
+            "percentage": 2
+        },
+        {
+            "name": "McDonald's",
+            "symbol": "mcd",
+            "percentage": 4
+        },
+
+
+        {
+            "name": "Johnson & Johnson",
+            "symbol": "jnj",
+            "percentage": 6
+        },
+
+
+        {
+            "name": "Alphabet/Google",
+            "symbol": "goog",
+            "percentage": 2
+        },
+        {
+            "name": "Microsoft",
+            "symbol": "msft",
+            "percentage": 3
+        },
+        {
+            "name": "Apple",
+            "symbol": "aapl",
+            "percentage": 4
+        }
+
+    ]
+}
