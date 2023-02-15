@@ -5,10 +5,10 @@ It works by web scraping past data on them from the internet according to their 
 
 ## Configuration
 Set up your portfolio in the json file, according to the example shown.
+Install dependencies by running(python3 needed): pip3 install -r requirements.txt
 
 ## Running
-To run it use the following commands on the (python3 needed):
-* pip3 install 
+python3 stock_sim.py
 
 
 ## TODO
