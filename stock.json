@@ -1,8 +1,8 @@
 {
     "initial_amount": 0,
-    "monthly_amount": 400,
+    "monthly_amount": 120,
     "start_month": 2,
-    "start_year": 2015,
+    "start_year": 2013,
     "end_month": 2,
     "end_year": 2023,
     "tax_percentage": 28.0,
@@ -11,41 +11,41 @@
         {
             "name": "pepsi",
             "symbol": "pep",
-            "percentage": 4
+            "percentage": 17
         },
         {
             "name": "coca-cola",
             "symbol": "ko",
-            "percentage": 2
+            "percentage": 10
         },
         {
             "name": "McDonald's",
             "symbol": "mcd",
-            "percentage": 4
+            "percentage": 18
         },
 
 
         {
             "name": "Johnson & Johnson",
             "symbol": "jnj",
-            "percentage": 6
+            "percentage": 15
         },
 
 
         {
             "name": "Alphabet/Google",
             "symbol": "goog",
-            "percentage": 2
+            "percentage": 8
         },
         {
             "name": "Microsoft",
             "symbol": "msft",
-            "percentage": 3
+            "percentage": 12
         },
         {
             "name": "Apple",
             "symbol": "aapl",
-            "percentage": 4
+            "percentage": 20
         }
 
     ]

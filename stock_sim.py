@@ -1,12 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+from sys import exit
 
 # read stock data from json file
 STOCK_FILE_PATH = 'stock.json'
 with open(STOCK_FILE_PATH, 'r') as f:
     stock_data_raw = f.read()
     stock_data = json.loads(stock_data_raw)
+
+total_percentage = sum([stock['percentage'] for stock in stock_data['stocks']])
+
+if total_percentage > 100.0:
+    print("Sum of portfolio percentages over 100%. Exiting...")
+    exit(0)
+elif total_percentage < 100.0:
+    print(f"Sum of portfolio percentages is {total_percentage}%. You didn't allocate all the money in your budget.")
 
 def get_stock_gains(**kwargs):
     URL = f"""https://www.buyupside.com/alphavantagelive/dollarcostavecomputeav.php?symbol=\
